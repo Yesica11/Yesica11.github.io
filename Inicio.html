@@ -6,19 +6,26 @@
     <link rel="stylesheet" href="Css/Style.css" type="text/Css">
     <link rel="Cracy icon" type="jpg" href="Img/globos.jpg">
     <title>UNIVERSO &#128420;</title>
+    <script src="Js/sesion.js"></script>
 </head>
 
 <body>
-    <div>
-          <h2>Bienvenidos a un mundo de locos &#128420;</h2>
-       <section>
-        <span class="fontawesome-user"></span><input type="text" placeholder="Nombre de usuario" name="user" id="user" autocomplete="off" required/>
-        <span class="fontawesome-lock"></span><input type="password" placeholder="Contraseña" name="Contraseña" id="password" autocomplete="off"/>
-        <input href="Index.html" type="submit" value="Registrar" id="enviar" >
-        <img class="img" src="Img/paz-pequeña.jpg">
-       </section>
-               
-    </div>
-</body>
-</html>
 
+    <form action="">
+
+        <h2>Bienvenidos a un mundo de locos &#128420;</h2>
+
+        <label for="">Usuario</label>
+        <input type="text" placeholder="Escriba su usuario" id="usuario">
+
+        <label for="">Contraseña</label>
+        <input type="password" placeholder="Escriba su contraseña" id="clave">
+
+        <input type="button" value="Entrar" onclick="loguear()">
+        <img class="img" src="Img/paz-pequeña.jpg">
+    </form>
+
+    
+</body>
+
+</html>
