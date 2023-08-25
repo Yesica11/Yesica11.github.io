@@ -6,7 +6,7 @@ function loguear()
     let pass=document.getElementById("clave").value;
 
 
-    if (user=="Yika" && pass=="1234") 
+    if (user=="Yika" && pass=="1102") 
     {
         window.location="Pag.html";
     }

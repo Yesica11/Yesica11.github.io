@@ -77,11 +77,12 @@ h2:hover {
     text-shadow:2px 25px 20px #24eafc;
 }
 
-form .img {
+.img {
     margin: 5%;
     width: 30%;
     height: 50%;
     border-radius: 5%;
+
 }
 
 .img:hover {
