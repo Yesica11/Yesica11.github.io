@@ -8,7 +8,7 @@ function loguear()
 
     if (user=="Yika" && pass=="1102") 
     {
-        window.location="Pag.html";
+        window.location="Index.html";
     }
 
     else
